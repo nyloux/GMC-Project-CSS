@@ -1,0 +1,135 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #202233;
+  margin: 0%;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0%;
+  margin: 0%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  height: 64px;
+  width: 100vw;
+}
+.inner-nav {
+  height: 100%;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-icon {
+  font-size: 40px;
+  color: #ff4957;
+}
+.nav-ul {
+  display: flex;
+}
+.nav-item {
+  margin-left: 15px;
+}
+.home-section {
+  background-color: #23273a;
+  height: 60vh;
+  display: flex;
+}
+
+.social-item {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  color: white;
+  border-radius: 50%;
+  border: 2px solid #ff4957;
+  display: grid;
+  place-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.social-item:hover {
+  transform: scale(1.5);
+  color: #ff4957;
+  background-color: beige;
+}
+.reseaux {
+  display: flex;
+}
+.infos {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+  justify-content: center;
+}
+.h1 {
+  font-weight: bold;
+}
+p {
+  color: #5f6172;
+}
+.my-image {
+  width: 300px;
+  height: 100%;
+  object-fit: cover;
+}
+.box {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: #23273a;
+  color: white;
+}
+
+.color-icon-services {
+  font-size: 40px;
+  color: #ff4957;
+}
+.services {
+  width: 50vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.nav-item {
+  cursor: pointer;
+}
+.my-services h1 {
+  color: white;
+}
+.my-services h2 {
+  color: #ff4957;
+}
+.my-services p {
+  color: rgb(172, 172, 172);
+  width: 500px;
+}
+.my-services-icon {
+  font-size: 40px;
+  color: #ff4957;
+}
+.my-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.copyright {
+  background-color: #23273a;
+  font-size: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: gray;
+}
